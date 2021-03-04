@@ -1,0 +1,192 @@
+body {
+    background-color: white;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-bar {
+    padding: 20px 0;
+    color: #ffffff;
+}
+
+.menu__item {
+    margin-left: 36px;
+}
+
+.menu__item a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu {
+    float: right;
+}
+
+/*Шапка*/
+
+.ba {
+    background-image: url(img/fon.png);
+    background-size: 100%;
+}
+
+.header {
+    text-align: center;
+    padding: 180px 0;
+}
+
+.header__title {
+    font-size: 48px;
+    color: white;
+    font-family: 'RobotoSlabBold';
+}
+
+.header__text {
+    font-size: 20px;
+    margin-bottom: 50px;
+    color: white;
+    font-family: 'RobotoSlabBold';
+}
+
+.button {
+    padding: 19px 35px;
+    background-color: #ffffff;
+    transition: 0.3s;
+    width: 180px;
+    height: 50px;
+    border-radius: 2px;
+}
+
+.button_empty {
+    background: transparent;
+    border: 2px solid #ffffff;
+}
+
+.button_empty:hover {
+    border: 2px dotted black;
+    background: red;
+}
+
+/*сервис*/
+
+.services {
+    text-align: center;
+    color: black;
+    background: #ffffff;
+    display: flex;
+}
+
+.services__title {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'MonofurItalic';
+    color: #555555;
+    padding-top: 99px;
+}
+
+.services__text {
+    font-size: 15px;
+    font-family: 'MonofurItalic';
+    color: #555555;
+    padding-bottom: 70px;
+}
+
+.shape {
+    padding-top: 29px;
+    padding-bottom: 28px
+}
+
+.services_h3 {
+    font-size: 20px;
+}
+
+.services_text {
+    font-size: 15px;
+    padding-bottom: 100px
+}
+
+.row_img {
+    padding-bottom: 30px
+}
+
+/*about*/
+
+.about {
+    text-align: center;
+    color: black;
+    background: #f8f8f8;
+    display: flex;
+}
+
+.about__title {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'MonofurItalic';
+    color: #555555;
+    padding-top: 99px;
+}
+
+.about__text {
+    font-size: 15px;
+    font-family: 'MonofurItalic';
+    color: #555555;
+    padding-bottom: 70px;
+}
+
+.shape {
+    padding-top: 29px;
+    padding-bottom: 28px
+}
+
+.about_text {
+    font-size: 15px;
+    padding-bottom: 25px;
+    text-align: justify
+}
+
+.row_img {
+    padding-bottom: 30px
+}
+
+@font-face {
+    font-family: "RobotoSlabRegular";
+    src: url("../fonts/RobotoSlabRegular/RobotoSlabRegular.eot");
+    src: url("../fonts/RobotoSlabRegular/RobotoSlabRegular.eot?#iefix")format("embedded-opentype"), url("../fonts/RobotoSlabRegular/RobotoSlabRegular.woff") format("woff"), url("../fonts/RobotoSlabRegular/RobotoSlabRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "RobotoSlabLight";
+    src: url("../fonts/RobotoSlabLight/RobotoSlabLight.eot");
+    src: url("../fonts/RobotoSlabLight/RobotoSlabLight.eot?#iefix")format("embedded-opentype"), url("../fonts/RobotoSlabLight/RobotoSlabLight.woff") format("woff"), url("../fonts/RobotoSlabLight/RobotoSlabLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "RobotoSlabBold";
+    src: url("../fonts/RobotoSlabBold/RobotoSlabBold.eot");
+    src: url("../fonts/RobotoSlabBold/RobotoSlabBold.eot?#iefix")format("embedded-opentype"), url("../fonts/RobotoSlabBold/RobotoSlabBold.woff") format("woff"), url("../fonts/RobotoSlabBold/RobotoSlabBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "MonofurRegular";
+    src: url("../fonts/MonofurRegular/MonofurRegular.eot");
+    src: url("../fonts/MonofurRegular/MonofurRegular.eot?#iefix")format("embedded-opentype"), url("../fonts/MonofurRegular/MonofurRegular.woff") format("woff"), url("../fonts/MonofurRegular/MonofurRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "MonofurItalic";
+    src: url("../fonts/MonofurItalic/MonofurItalic.eot");
+    src: url("../fonts/MonofurItalic/MonofurItalic.eot?#iefix")format("embedded-opentype"), url("../fonts/MonofurItalic/MonofurItalic.woff") format("woff"), url("../fonts/MonofurItalic/MonofurItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
