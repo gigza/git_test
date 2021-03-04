@@ -1,0 +1,72 @@
+body {
+    font-family: Montserrat;
+    background-color: gray;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-bar {
+    padding: 20px 0;
+    color: #ffffff;
+}
+
+.menu__item {
+    margin-left: 36px;
+}
+
+.menu__item a {
+    font-size: 14px;
+    color: white;
+}
+
+.menu {
+    float: right;
+}
+
+/*Шапка*/
+
+.ba {
+    background-image: url(img/fon.png);
+    background-size: 100%;
+}
+
+.header {
+    text-align: center;
+    padding: 180px 0;
+}
+
+.header__title {
+    font-size: 48px;
+    color: white;
+    font-family: "Roboto Slab";
+}
+
+.header__text {
+    font-size: 20px;
+    margin-bottom: 50px;
+    color: white;
+    font-family: "Roboto Slab";
+}
+
+.button {
+    padding: 19px 35px;
+    background-color: #ffffff;
+    transition: 0.3s;
+    width: 180px;
+    height: 50px;
+    border-radius: 2px;
+}
+
+.button_empty {
+    background: transparent;
+    border: 2px solid #ffffff;
+}
+
+.button_empty:hover {
+    border: 2px dotted black;
+    background: white;
+}
